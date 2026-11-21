@@ -7,7 +7,7 @@
 
 <p>
 Zixi Wang · Yubo Huang · Xin Lai · Pengyue Cheng ·<br>
-<strong>Jingzehua Xu</strong> · Xiongyu Hu · Chuan He
+Jingzehua Xu · Xiongyu Hu · Chuan He
 </p>
 
 <p>
@@ -462,7 +462,5 @@ If you use PolyComm in your research, please cite the accompanying manuscript. T
 PolyComm builds on ideas from [LoRA](https://github.com/microsoft/LoRA), [DoRA](https://github.com/NVlabs/DoRA), and [SSF](https://github.com/dongzelian/SSF), and uses [timm](https://github.com/huggingface/pytorch-image-models) for vision transformer backbones.
 
 All figures shown here are rendered from the original figures accompanying the manuscript, with their panel content preserved.
-
-**Corresponding author:** Jingzehua Xu · [u3014074@connect.hku.hk](mailto:u3014074@connect.hku.hk)
 
 <p align="center"><a href="#top">Back to top ↑</a></p>
