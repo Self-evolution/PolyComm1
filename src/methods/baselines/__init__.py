@@ -1,0 +1,29 @@
+"""Baseline PEFT methods — import each module to trigger @register_method."""
+
+from src.methods.baselines import lora  # noqa: F401
+from src.methods.baselines import ssf  # noqa: F401
+from src.methods.baselines import adapter  # noqa: F401
+from src.methods.baselines import convpass  # noqa: F401
+from src.methods.baselines import repadapter  # noqa: F401
+from src.methods.baselines import difffit  # noqa: F401
+from src.methods.baselines import vqt  # noqa: F401
+from src.methods.baselines import layernorm_tuning  # noqa: F401
+from src.methods.baselines import adaptformer  # noqa: F401
+from src.methods.baselines import dtl  # noqa: F401
+from src.methods.baselines import fclayer  # noqa: F401
+from src.methods.baselines import fulltuning  # noqa: F401
+from src.methods.baselines import gps  # noqa: F401
+from src.methods.baselines import hydra  # noqa: F401
+from src.methods.baselines import last  # noqa: F401
+from src.methods.baselines import noah  # noqa: F401
+from src.methods.baselines import sct  # noqa: F401
+from src.methods.baselines import prefix_tuning  # noqa: F401
+from src.methods.baselines import patt  # noqa: F401
+from src.methods.baselines import bitfit  # noqa: F401
+from src.methods.baselines import vpt  # noqa: F401
+from src.methods.baselines import fact  # noqa: F401
+from src.methods.baselines import coeff_tuning  # noqa: F401
+from src.methods.baselines import dora  # noqa: F401
+from src.methods.baselines import dora_norm  # noqa: F401
+from src.methods.baselines import dora_ssf  # noqa: F401
+from src.methods.baselines import spt  # noqa: F401
