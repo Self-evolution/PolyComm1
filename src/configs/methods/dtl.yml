@@ -1,0 +1,4 @@
+method:
+  name: dtl
+  rank: 8
+  target_modules: [qkv, proj]

@@ -1,0 +1,19 @@
+# FacT — Factor-Tuning configuration
+# Supports two variants: fact_tk (Tucker) and fact_tt (Tensor-Train)
+# Reference: Jie & Deng, "FacT: Factor-Tuning for Lightweight Adaptation
+#            on Vision Transformer", AAAI 2023.
+
+method:
+  # Choose variant: "fact_tk" or "fact_tt"
+  name: fact_tk
+
+  # Low-rank bottleneck dimension (r in the paper)
+  # Typical values: 4, 8, 16
+  dim: 8
+
+  # Output scale applied to the delta update
+  # Typical values: 0.5, 1.0
+  scale: 1.0
+
+  # Dropout applied inside the FacT path
+  dropout: 0.1

@@ -1,0 +1,6 @@
+method:
+  name: vpt
+  num_tokens: 10       # number of prompt tokens per layer
+  mode: shallow        # shallow | deep
+  dropout: 0.1
+  patch_size: 16       # used for Xavier init scale; match backbone patch size

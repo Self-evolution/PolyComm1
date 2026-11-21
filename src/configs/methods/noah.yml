@@ -1,0 +1,5 @@
+method:
+  name: noah
+  bottleneck_dim: 64
+  lora_rank: 8
+  init_scale: 1.0e-3

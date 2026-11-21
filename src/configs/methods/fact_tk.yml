@@ -1,0 +1,9 @@
+# FacT-TK — Factor-Tuning (Tucker decomposition variant)
+# Reference: Jie & Deng, "FacT: Factor-Tuning for Lightweight Adaptation
+#            on Vision Transformer", AAAI 2023.
+
+method:
+  name: fact_tk
+  dim: 8
+  scale: 1.0
+  dropout: 0.1

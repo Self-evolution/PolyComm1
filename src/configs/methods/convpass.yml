@@ -1,0 +1,12 @@
+method:
+  name: convpass
+  # Bottleneck channels for the conv bypass branch
+  bottleneck_dim: 8
+  # Output scale for the bypass branch
+  scale: 1.0
+  # Dropout inside the bypass
+  dropout: 0.1
+  # Use Xavier init for conv weights (False = near-identity init)
+  xavier_init: false
+  # Only inject on attention branch (false = inject on both attn and mlp)
+  attn_only: false

@@ -1,0 +1,10 @@
+method:
+  name: adaptformer
+  # Adapter bottleneck hidden dimension
+  bottleneck_dim: 64
+  # Output scale for the parallel adapter branch
+  scale: 1.0
+  # Dropout inside the adapter
+  dropout: 0.0
+  # Std for near-zero weight initialization (ensures near-zero output at init)
+  init_scale: 1.0e-3

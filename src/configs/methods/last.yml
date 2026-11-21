@@ -1,0 +1,5 @@
+method:
+  name: last
+  num_last_blocks: 2
+  unfreeze_norm: true
+  unfreeze_patch_embed: false

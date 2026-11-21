@@ -1,0 +1,8 @@
+method:
+  name: fulltuning
+  # No method-specific hyperparameters — all backbone parameters are unfrozen.
+  # Use a lower learning rate than PEFT methods to avoid catastrophic forgetting.
+
+training:
+  lr: 1.0e-4
+  weight_decay: 0.05

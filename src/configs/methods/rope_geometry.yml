@@ -1,0 +1,9 @@
+method:
+  name: rope_geometry
+  mode: rope_perturbation   # rope_perturbation | pos_bias | both
+  rank: 4                   # rank for position bias low-rank decomposition
+  max_len: 197              # max sequence length (196 patches + 1 cls token for ViT-B/16)
+  num_layers: 12            # number of transformer layers
+  num_heads: 12             # number of attention heads
+  dim_per_head: 64          # dimension per head (768 / 12 for ViT-B/16)
+  dropout: 0.0              # dropout on perturbation

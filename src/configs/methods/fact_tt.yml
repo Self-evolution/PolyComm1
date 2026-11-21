@@ -1,0 +1,9 @@
+# FacT-TT — Factor-Tuning (Tensor-Train variant)
+# Reference: Jie & Deng, "FacT: Factor-Tuning for Lightweight Adaptation
+#            on Vision Transformer", AAAI 2023.
+
+method:
+  name: fact_tt
+  dim: 8
+  scale: 1.0
+  dropout: 0.1

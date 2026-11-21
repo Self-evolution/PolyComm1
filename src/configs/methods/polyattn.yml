@@ -1,0 +1,6 @@
+method:
+  name: polyattn
+  max_hops: 3            # polynomial degree K; Y = sum_{k=0}^{K} gamma_k * A^k * V
+  mode: dynamic          # static | dynamic (input-conditioned CoeffGenerator)
+  coeff_dropout: 0.1     # dropout applied to gamma coefficients during training
+  norm_constraint: 1.0   # max L2 norm for high-order (k>=2) coefficients; 0 to disable

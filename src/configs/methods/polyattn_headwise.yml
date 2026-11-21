@@ -1,0 +1,8 @@
+method:
+  name: polyattn
+  max_hops: 3
+  mode: dynamic
+  headwise: true
+  coeff_dropout: 0.1
+  dropout_target: high_order
+  norm_constraint: 1.0

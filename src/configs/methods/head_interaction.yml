@@ -1,0 +1,5 @@
+method:
+  name: head_interaction
+  mode: quadratic        # quadratic | mixer
+  embed_dim: 8           # head embedding dimension for mixer mode
+  use_quadratic: true    # include second-order (A_i ⊙ A_j) interaction terms

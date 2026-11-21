@@ -1,0 +1,6 @@
+method:
+  name: patt
+  num_anchors: 4          # number of temporal anchor tokens per layer
+  dropout: 0.1
+  inject_layers: all      # "all", "last_N" (e.g. last_6), or comma-separated indices
+  aggregation: mean       # how anchor outputs are pooled before CLS update

@@ -1,0 +1,8 @@
+method:
+  name: vqt
+  # Number of learnable query tokens inserted per transformer layer
+  num_tokens: 10
+  # Dropout applied to query token embeddings
+  dropout: 0.0
+  # Patch size used for Xavier init scale (should match backbone)
+  patch_size: 16

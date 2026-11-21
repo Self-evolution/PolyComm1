@@ -1,0 +1,5 @@
+method:
+  name: layernorm_tuning
+  # Optional: restrict to specific LayerNorm layer names (e.g. [norm1, norm2]).
+  # Set to null to unfreeze all LayerNorm parameters (default behaviour).
+  target_modules: null

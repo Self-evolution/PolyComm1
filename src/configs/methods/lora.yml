@@ -1,0 +1,6 @@
+method:
+  name: lora
+  rank: 8
+  alpha: 16
+  target_modules: [qkv]
+  dropout: 0.0

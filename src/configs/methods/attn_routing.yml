@@ -1,0 +1,6 @@
+method:
+  name: attn_routing
+  mode: low_rank        # low_rank | anchor
+  rank: 4               # rank for low_rank mode (M_theta = U @ V^T)
+  seq_len: 197          # sequence length: 196 patches + 1 CLS token (ViT-B/16 224x224)
+  num_anchors: 16       # number of anchors for anchor mode

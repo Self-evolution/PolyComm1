@@ -1,0 +1,12 @@
+method:
+  name: repadapter
+  # Adapter bottleneck hidden size
+  bottleneck_dim: 8
+  # Groups for the parallel depthwise conv branch
+  groups: 2
+  # Std for near-zero weight initialization
+  init_scale: 1.0e-3
+  # Insert adapter after attention sub-block
+  insert_after_attn: true
+  # Insert adapter after MLP sub-block
+  insert_after_mlp: true

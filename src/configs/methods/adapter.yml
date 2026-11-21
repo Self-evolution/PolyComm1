@@ -1,0 +1,14 @@
+method:
+  name: adapter
+  # Adapter variant: pfeiffer | houlsby | adaptformer
+  variant: pfeiffer
+  # Bottleneck hidden dimension
+  bottleneck_dim: 64
+  # Dropout inside the adapter bottleneck
+  dropout: 0.0
+  # Std for near-zero weight initialization (ensures identity at init)
+  init_scale: 1.0e-3
+  # Output scale for AdaptFormer parallel branch (only used when variant=adaptformer)
+  scale: 1.0
+  # Substring pattern used to identify transformer block modules
+  block_name_pattern: blocks

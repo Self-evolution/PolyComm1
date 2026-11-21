@@ -1,0 +1,16 @@
+# Coeff-Tuning configuration
+# Reference: Miao et al., "Coeff-Tuning: A Graph Filter Subspace View for
+#            Tuning Attention-Based Large Models", CVPR 2025.
+
+method:
+  name: coeff_tuning
+
+  # Multiplier applied to the coefficient matrix before adding identity.
+  # Smaller values make early training more stable.
+  scale: 1.0
+
+  # Dropout on the coefficient matrix (0.0 = disabled).
+  dropout: 0.0
+
+  # First transformer block index to inject (0 = all blocks).
+  start_layer: 0

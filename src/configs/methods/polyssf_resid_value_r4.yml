@@ -1,0 +1,18 @@
+method:
+  name: polyssf
+  max_hops: 3
+  mode: dynamic
+  headwise: true
+  mlp_ratio: 0.03125
+  parameterization: delta
+  delta_scale: 0.5
+  coeff_activation: tanh
+  coeff_dropout: 0.0
+  dropout_target: high_order
+  norm_constraint: 0.5
+  coeff_trainable: false
+  value_adapter_rank: 4
+  value_adapter_alpha: 8
+  value_adapter_dropout: 0.0
+  ssf_target_modules: [qkv, proj, norm]
+  inject_norm: true

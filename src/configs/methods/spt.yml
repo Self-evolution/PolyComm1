@@ -1,0 +1,8 @@
+# SPT — Sensitivity-Aware Visual Parameter-Efficient Fine-Tuning
+# Reference: He et al., ICCV 2023 (Oral).
+
+method:
+  name: spt
+  rank: 8
+  structured_type: lora
+  target_modules: [q, k, v, proj, fc1, fc2]

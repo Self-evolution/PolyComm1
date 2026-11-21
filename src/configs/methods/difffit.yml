@@ -1,0 +1,5 @@
+method:
+  name: difffit
+  # Optional: restrict to specific layer names (e.g. [norm1, norm2]).
+  # Set to null to unfreeze all bias + LayerNorm parameters (default DiffFit behaviour).
+  target_modules: null

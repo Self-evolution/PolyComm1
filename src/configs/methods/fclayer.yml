@@ -1,0 +1,4 @@
+method:
+  name: fclayer
+  unfreeze_last_norm: false
+  last_norm_name: norm

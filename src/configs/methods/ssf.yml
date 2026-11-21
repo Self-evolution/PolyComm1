@@ -1,0 +1,5 @@
+method:
+  name: ssf
+  # Match benchmark: SSF on attention layers + norms, NOT MLP fc1/fc2
+  target_modules: [qkv, proj, norm]
+  inject_norm: true

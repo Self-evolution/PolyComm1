@@ -1,0 +1,15 @@
+method:
+  name: polyattn
+  max_hops: 3
+  mode: dynamic
+  headwise: true
+  mlp_ratio: 0.03125
+  parameterization: delta
+  delta_scale: 1.0
+  coeff_activation: tanh
+  coeff_dropout: 0.0
+  dropout_target: high_order
+  norm_constraint: 1.0
+  value_adapter_rank: 4
+  value_adapter_alpha: 8
+  value_adapter_dropout: 0.0

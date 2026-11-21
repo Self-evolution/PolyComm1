@@ -1,0 +1,9 @@
+# DoRA — Weight-Decomposed Low-Rank Adaptation
+# Reference: Liu et al., "DoRA: Weight-Decomposed Low-Rank Adaptation", ICML 2024.
+
+method:
+  name: dora
+  rank: 8
+  alpha: 16
+  target_modules: [qkv]
+  dropout: 0.0

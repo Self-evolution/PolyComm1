@@ -1,0 +1,6 @@
+method:
+  name: prefix_tuning
+  prefix_len: 10          # number of prefix key/value tokens per layer
+  dropout: 0.1
+  reparameterize: false   # use MLP reparameterization for prefix init
+  mid_dim: 512            # hidden dim for reparameterization MLP (if enabled)

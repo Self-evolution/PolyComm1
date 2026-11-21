@@ -1,0 +1,5 @@
+method:
+  name: bitfit
+  # Optional: restrict to specific layer names (e.g. [attn, mlp]).
+  # Set to null to unfreeze all bias parameters (default BitFit behaviour).
+  target_modules: null

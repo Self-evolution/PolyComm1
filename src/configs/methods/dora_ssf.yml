@@ -1,0 +1,8 @@
+method:
+  name: dora_ssf
+  rank: 8
+  alpha: 16
+  dropout: 0.0
+  qkv_modules: [qkv]
+  ssf_target_modules: [qkv, proj, norm]
+  inject_norm: true

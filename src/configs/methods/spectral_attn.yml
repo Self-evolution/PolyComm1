@@ -1,0 +1,4 @@
+method:
+  name: spectral_attn
+  cheby_order: 3        # Chebyshev polynomial order K; filter has K+1 terms
+  lambda_max: 2.0       # approximation of max eigenvalue of L_A (2.0 for normalized Laplacian)
