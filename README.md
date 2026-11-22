@@ -84,7 +84,7 @@ This branch can adapt message content even when the QKV gate favors the frozen p
 
 ### 3. Combine propagation orders within each head
 
-For head $h$, define $A_h=\operatorname{softmax}(Q_hK_h^\top/\sqrt d)$. PolyComm applies the same operator recurrently:
+For head $h$, define $A_h=\mathrm{softmax}(Q_hK_h^\top/\sqrt d)$. PolyComm applies the same operator recurrently:
 
 $$
 P_{h0}=\widetilde V_h,\qquad
